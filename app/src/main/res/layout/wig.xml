@@ -1,0 +1,14 @@
+<FrameLayout xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:id="@+id/layoutOverlay"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:ignore="MissingDefaultResource">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/showText"
+        android:text="this is not in the app"
+        android:textColor="#111111" />
+</FrameLayout>
